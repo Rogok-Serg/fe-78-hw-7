@@ -41,6 +41,7 @@ body {
 .container {
     padding-left: 15px;
     padding-right: 15px;
+  
 }
 
 .title {
@@ -168,8 +169,6 @@ span {
         background-color: #4D5AE5;
     }
     .mobile-menu-container-list {
-        display: flex;
-        flex-direction: column;
         padding-left: 40px;
         padding-top: 80px;
     }
@@ -191,8 +190,6 @@ span {
         color: var(--accent-color);
     }
     .mobile-menu-contact {
-        display: flex;
-        flex-direction: column;
         margin-left: 40px;
         margin-top: 284px;
     }
@@ -296,8 +293,6 @@ span {
         border-radius: 2px;
     }
     .menu-contact {
-        
-        position: absolute;
         top: 24px;
         right: 16px;
 
@@ -375,9 +370,7 @@ span {
     background-color: #2E2F42;
 }
 .hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -1105,141 +1098,7 @@ span {
 }
 
 
-/* .footer-page {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #2E2F42;   
-}
 
-.footer-logotype {
-    
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
-.footer-span {
-    color: #F4F4FD;}
-    
-.footer-text {
-    margin-top: 16px;
-    width: 264px;
-    color: #E7E9FC;
-}
-.footer-page-list {
-    display: flex;
-}
-.footer-social-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin-bottom: 16px;
-}
-.footer-social-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-top: 8px;
-}
-.footer-social-list-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-    background-color: #31D0AA;
-}
-.footer-social-list-icon {
-    fill: #F4F4FD;
-}
-
-.fotter-social-list-item {
-    margin-left: 120px;
-}
-.footer-form-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
-.footer-form-list {
-    margin-left: 80px;
-}
-.footer-form-input {
-    width: 264px;
-    height: 40px;
-    padding-left: 16px;
-    color: #FFFFFF;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    background-color: #2E2F42;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-.footer-form-input:focus {
-    outline: none;
-    border-color: rgba(77, 90, 229, 1);
-}
-.footer-form-input::placeholder {
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: rgba(255, 255, 255, 0.6);
-}
-.footer-form-wrapper {
-    display: flex;   
-}
-.footer-form-submit {
-    display: flex;
-    width: 165px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #4D5AE5;
-    border-radius: 4px;
-    cursor: pointer;
-    border: 1px solid #4D5AE5
-    }
-    .footer-form-submit:hover,
-    .footer-form-submit:focus {
-        background-color: var(--accent-color);
-    }
-    .footer-btn-icon {
-        fill: #FFFFFF;;
-        margin-left: 16px;
-    } */
-
-
-
-/* <<<<< /Футер >>>>> */
 
 /* <<<<< Шапка портфоліо >>>>> */
 /* <<<<< /Шапка портфоліо >>>>> */
@@ -1247,51 +1106,55 @@ span {
 /* <<<<< Тіло сторінки портфоліо >>>>> */
 
 /* <<<<< Кнопки >>>>> */
-
-/* .menu-btn {
+ .filters-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .filters-btn-list {
     display: flex;
-    justify-content: center; 
-    flex-direction: column;
-    padding-top: 96px;
-    padding-bottom: 120px;    
-    background-color: #FFFFFF;      
-}
-.filters-btn-list {
-    display: flex;
-    justify-content: center; 
-    margin-bottom: 72px;
-    gap: 24px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-}
-.card-link:hover,
-.card-link:focus {
-
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.btn-filters {
-    display: flex;
-    padding: 12px 24px;
-    background: #F4F4FD;
-    border: 0 solid #E7E9FC;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+    column-gap: 24px;
+    row-gap: 16px;
+ }
+ .btn-filters {
+    padding: 8px 16px;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
     border-radius: 4px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-}   
-.btn-filters:hover,
-.btn-filters:focus {
-    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ }
+ .btn-filters:hover,
+ .btn-filters:focus {
+    background-color: var(--accent-color);
     color: #FFFFFF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-} */
+ }
+ @media screen and (min-width: 768px) {
+    .filters-container {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+    .filters-btn-list {
+        justify-content: center;
+        margin-bottom: 64px;
+    }  
+
+ }
+ @media screen and (min-width: 1200px) {
+    .filters-container {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+    .filters-btn-list {
+        margin-bottom: 72px;
+    }  
+ } 
+ 
 /* <<<<< /Кнопки >>>>> */
 
 /* <<<<< Картки >>>>> */
