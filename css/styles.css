@@ -936,7 +936,7 @@ span {
     row-gap: 72px;
 }
 .footer-logotype-item {
-    width: 268px;
+    width: 264px;
     text-align: center;
 }
 .footer-logotype {
@@ -945,7 +945,6 @@ span {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #4D5AE5;
 }
@@ -1053,20 +1052,24 @@ span {
     fill: #fff;
     margin-left: 16px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+
+
+@media screen and (min-width: 768px) {
     .footer-page {
+        
         padding-left: 108px;
         
+        
     }
-}
-
     .footer-page-list {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: start;
     }
     .footer-logotype-item {
+        
         margin-right: 24px;
+        text-align: left;
     }
     
     .footer-social-title {
@@ -1084,19 +1087,19 @@ span {
         margin-right: 24px;
     }
 
-
+}
 @media screen and (min-width: 1200px) {
     .footer-page {
         padding-top: 100px;
         padding-bottom: 100px;
+        padding-left: 0;
 
     }
     .footer-logotype-item {
         margin-right: 120px;
     }
-    .footer-form-list{
-        margin-left: 75px;
-        
+    .footer-form-list {
+        margin-left: 80px;
     }
 
 }
