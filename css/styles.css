@@ -17,6 +17,10 @@ ul {
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+
 }
 .list {
     list-style: none;
@@ -118,6 +122,7 @@ span {
         display: none;
     } 
     .page-header {
+        
         padding-bottom: 20px;
     }
     .menu-contact {
@@ -156,7 +161,7 @@ span {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        
+        overflow: auto;
         padding-left: 40px;
         padding-top: 80px;
         position: relative;
@@ -187,6 +192,9 @@ span {
     
     .mobile-menu-container-list-item:not(:last-child) {
         margin-bottom: 40px;
+    }
+    .mobile-menu-container-list {
+        margin-bottom: 60px;
     }
     .mobile-menu-container-list-link {
         font-family: 'Roboto';
